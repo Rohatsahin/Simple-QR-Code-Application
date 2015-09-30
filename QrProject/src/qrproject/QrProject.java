@@ -274,8 +274,7 @@ public class QrProject extends javax.swing.JFrame {
   
     private void captureimageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_captureimageActionPerformed
         // TODO add your handling code here:
-        WebcamQRCode childFrame=new WebcamQRCode();
-        childFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        WebCam childFrame=new WebCam();
         childFrame.setVisible(true);
         setVisible(false);
         
